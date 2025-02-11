@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Google-Flights-Demo/static/css/main.2e662a65.css",
+    "main.js": "/Google-Flights-Demo/static/js/main.d38c5fbd.js",
+    "index.html": "/Google-Flights-Demo/index.html",
+    "main.2e662a65.css.map": "/Google-Flights-Demo/static/css/main.2e662a65.css.map",
+    "main.d38c5fbd.js.map": "/Google-Flights-Demo/static/js/main.d38c5fbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e662a65.css",
+    "static/js/main.d38c5fbd.js"
+  ]
+}
