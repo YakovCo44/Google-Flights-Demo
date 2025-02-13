@@ -7,7 +7,7 @@ const API_HOST = "sky-scrapper.p.rapidapi.com"
 
 // Create a common axios instance
 const apiClient = axios.create({
-    baseURL: `https://sky-scrapper.p.rapidapi.com/api/v2/flights/searchFlights`,
+    baseURL: 'https://sky-scrapper.p.rapidapi.com/api/v2/flights/searchFlights',
     headers: {
         "X-RapidAPI-Key": API_KEY,
         "X-RapidAPI-Host": API_HOST
@@ -138,7 +138,7 @@ export async function searchAirports(query) {
 
     const options = {
         method: "GET",
-        url: `https://${API_HOST}/api/v1/flights/searchAirport`,
+        url: 'https://sky-scrapper.p.rapidapi.com/api/v2/flights/searchFlights',
         params: { query, locale: "en-US" },
         headers: {
             "X-RapidAPI-Key": API_KEY,
